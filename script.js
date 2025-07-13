@@ -45,11 +45,11 @@ switch(grade) {
         feedbackMsg = "Don't give up. You can do better next time.";
         break;
     default:
-        console.log('Invalid grade');
+        feedbackMsg = 'Invalid grade';
 }
 
-console.log(
-    `Student Name: ${myName}
+console.log(`
+    Student Name: ${myName}
     Task-1 Score: ${task1Score}
     Task-2 Score: ${task2Score}
     Task-3 Score: ${task3Score}
